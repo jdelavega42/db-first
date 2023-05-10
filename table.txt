@@ -1,0 +1,15 @@
+Car Dealer Project
+
+Id - MEDIUMINT - PRIMARY_KEY(UNIQUE - NOTNULL)
+Vin - VARCHAR(17) - UNIQUE - NOTNULL
+Poster - VARCHAR(50) - DEFAULT 'img/mydefaultimg.img'
+Brand - VARCHAR(20) - NOTNULL
+Model - VARCHAR(50)
+Distance - MEDIUMINT - UNSIGNED - NOTNULL
+Seating - TINYINT
+Standard_price - FLOAT(7,2)
+Dealer_price - FLOAT(7,2) - NOTNULL
+Fuel_Type - VARCHAR(10)
+Single_Owner - TINYINT
+Descrpition - TEXT
+Vote - FLOAT(5,2)
